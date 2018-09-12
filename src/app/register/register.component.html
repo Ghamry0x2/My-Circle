@@ -1,0 +1,26 @@
+<div *ngIf="!navController.visible">
+  <h1>SIGN UP</h1>
+  <p>REGISTER NOW AND ENJOY OUR NEW FACILITIES!</p>
+
+  <hr>
+
+  <form (submit)="loginUser($event)">
+    <div class="input">
+      <input type="text" placeholder="First Name" required autofocus>
+      <input type="text" placeholder="Last Name" required>      
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Repeat Password" required>
+      <input type="text" pattern="[0-9]{11}" placeholder="Phone Number" required>
+      <input type="text" placeholder="City" required>
+      
+      <select name="gender">
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+      </select>
+
+      <input id="chkBox" type="checkbox" required>I agree on <a>Terms and Conditions</a>
+      <input type="submit" id="login" class="btn btn-primary btn-lg" value="Sign up">
+    </div>
+  </form>
+</div>

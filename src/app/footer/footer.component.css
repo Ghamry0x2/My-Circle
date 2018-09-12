@@ -1,0 +1,44 @@
+.footer{
+    background: rgba(255,255,255,0.9);              /*rgba(0,0,0,0.6);*/
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4); 
+    margin: 200px 0 0 0;
+    padding: 5px 10px;
+}
+
+.follow-label{
+    margin-top: 5px;
+}
+
+.social{
+    margin: 0 50px;
+}
+
+.social img{
+    width: 25px;
+    height: 25px;
+    margin: 5px 2px;
+}
+
+.teamlabels{
+    text-align: center;
+}
+
+h3{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+/* .twitter-img{background: url("../../assets/Images/twitter-dark.png");}
+.twitter-img:hover{src:"assets/Images/twitter-dark-hover.png";}
+
+.facebook-img{src:"assets/Images/facebook-dark.png";}
+.facebook-img:hover{src:"assets/Images/facebook-dark-hover.png";}
+
+.instagram-img{src:"assets/Images/instagram-dark.png";}
+.instagram-img:hover{src:"assets/Images/instagram-dark-hover.png";}
+
+.linkedin-img{src:"assets/Images/linkedin-dark.png" }
+.linkedin-img:hover{src:"assets/Images/linkedin-dark-hover.png";} */

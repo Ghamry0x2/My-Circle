@@ -1,0 +1,14 @@
+<div *ngIf="!navController.visible">
+  <h1>MY CIRCLE</h1>
+  <p>WHERE CREATIVITY MEETS REALITY</p>
+
+  <hr>
+
+  <p>A new blog for designers to meet and discuss</p>
+  <h3>SIGN TO BE NOTIFIED!</h3>
+
+  <ul id="login">
+    <li><a [routerLink]="['/signin']" class="login-btns btn btn-success btn-lg">Sign in</a></li>
+    <li><a [routerLink]="['/signup']" class="login-btns btn btn-primary btn-lg">Sign up</a></li>
+  </ul>
+</div>

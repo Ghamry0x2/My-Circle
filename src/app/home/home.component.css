@@ -1,0 +1,32 @@
+hr{
+    margin: 20px auto;
+    size: 300px;
+    width: 57%;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+p{
+    font-size: 15px;
+}
+
+h1{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.btn-success{
+    margin-top: 20px;
+    text-align: center;
+    width: 150px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;   
+    color: #fff; 
+    outline: none;
+    font-size: 18px;
+}
+
+.btn-success:hover{
+    outline: none;
+}

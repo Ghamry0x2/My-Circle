@@ -1,0 +1,112 @@
+#logo{
+    padding-top: 11px;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+#logo-img{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar{
+    padding: 0 10%;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);   /*#light 3px 3px 4px 4px rgba(0,0,0,0.3); #main 3px 3px 5px 6px rgba(0,0,0,0.4);*/
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a {          /*navbar options*/
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover {    /*navbar options*/
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.form-control{
+    height: 37px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+#form-btn{
+    margin: 0 auto;
+    width: 100px;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-weight: 500;
+    outline: none;
+}
+#form-btn:hover{
+    outline: none;
+}
+
+.navbar-left{
+    margin: 6px auto 0 auto;
+    text-align: center;
+}
+
+.navbar-right li{
+    padding: 0 5px;
+}
+
+.container-fluid ul li .login-btns{
+    width: 100px;
+    margin: 6px auto 0 auto;
+    padding: 9px 15px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container-fluid ul li .btn-primary:hover{
+    background-color: #286090;
+    color: white;
+}
+
+.container-fluid ul li .btn-success{            /*Remove the next 2 sections and edit the 3rd one in case of green button*/
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-success:active{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.container-fluid ul li .btn-success:hover{
+    /* background-color: #4ca14c; 
+    background-color: rgba( 255, 255, 255, 0.7);
+    color: white;*/
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.navbar-toggle{
+    border:none;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent; 
+}
+
+.navbar-collapse{
+    border: none;
+}
+/*
+.navbar-collapse[aria-expanded="true"]{
+    background: rgba(0,0,0,0.3);
+    width: 220px;
+}*/

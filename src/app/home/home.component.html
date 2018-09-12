@@ -1,0 +1,12 @@
+<app-welcomepage  *ngIf="!navController.visible"></app-welcomepage>
+
+<div class="container" *ngIf="navController.visible">
+    <h1>WELCOME ADMIN</h1>
+    <p>CREATIVITY ALWAYS MEETS REALITY</p>
+
+    <hr>
+
+    <p>Now you can check all users data!</p>
+
+    <input type="button" (click)="goToUsersPanel($event)" class="btn btn-success" value="Users">
+</div>

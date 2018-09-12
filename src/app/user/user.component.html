@@ -1,0 +1,39 @@
+<div *ngIf="navController.visible">
+
+  <div class="info container">
+  <div class="row">
+    <h3>{{user.id + ". " + user.firstName + " " + user.lastName}}</h3>
+
+    <div class="col-sm-1">
+      <input (click)="turnLeft($event)" type="button" class="turn-btns btn btn-default float-left" value="&lsaquo;">
+    </div>
+
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="{{user.profilePicUrl}}" alt="{{user.firstName + ' ' + user.lastName}}" title="{{user.firstName + ' ' + user.lastName}}">
+      </div>
+      <input (click)="back($event)" type="button" class="back-btn btn btn-default float-left" value="&laquo; Back">
+    </div>
+
+      <div class="info col-sm-6">
+        <p>Email: {{user.email}}</p>
+        <p>Gender: {{user.gender}}</p>
+        <p>Address: {{user.address}}</p>
+        <p>City: {{user.city}}</p>
+        <p>State: {{ user.state.name + " (" + user.state.abbreviation + ")" }}</p>
+        <p>Latitude: {{user.latitude}}</p>
+        <p>Longitude: {{user.longitude}}</p>
+      </div>
+      
+    <div class="col-sm-1">
+        <input (click)="turnRight($event)" type="button" class="turn-btns btn btn-default float-right" value="&rsaquo;">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="content">
+
+  </div>
+
+</div>

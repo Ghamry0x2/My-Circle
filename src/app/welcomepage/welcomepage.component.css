@@ -1,0 +1,41 @@
+hr{
+    margin: 20px auto;
+    size: 300px;
+    width: 57%;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+p{
+    font-size: 15px;
+}
+
+h1{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 50px 0;
+}
+
+#login{
+    padding: 0;
+}
+
+#login li{
+    list-style: none;
+    display: inline;
+}
+
+.login-btns{
+    text-align: center;
+    width: 150px;
+    height: 46px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: none;   
+    color: #fff; 
+}

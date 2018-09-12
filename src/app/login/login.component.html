@@ -1,0 +1,15 @@
+<div *ngIf="!navController.visible">
+  <h1>SIGN IN</h1>
+  <p>WE WERE EXPECTING YOU, WELCOME BACK!</p>
+
+  <hr>
+
+  <form (submit)="loginUser($event)">
+    <div class="input">
+      <input type="email" placeholder="Email" required autofocus>
+      <input type="password" placeholder="Password" required>
+      <a [routerLink]="['/forgotpassword']">Forgot your password?</a>
+      <input type="submit" id="login" class="btn btn-success btn-lg" value="Sign in">
+    </div>
+  </form>
+</div>

@@ -1,0 +1,100 @@
+hr{
+    margin: 20px auto;
+    size: 300px;
+    width: 57%;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+p{
+    font-size: 15px;
+}
+
+h1{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.contactus {
+   font-size: 20px;
+   line-height: 30px;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea, #contact button[type="submit"] {   
+   font-size: 16px ; 
+   font-weight: 400;
+   border-radius: 10px;
+}
+
+fieldset {
+   border: medium none !important;
+   margin: 0 0 10px;
+   padding: 0;
+   margin: 0 auto;
+}
+
+.submit-button{
+   width:420px;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+    width: 60%;
+    max-width: 400px;
+    border:1px solid #CCC;
+    background:#FFF;
+    padding:10px;
+    margin: 10px auto;
+    outline: none;
+}
+
+/* #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact textarea:hover {
+   -webkit-transition:border-color 0.3s ease-in-out;
+   -moz-transition:border-color 0.3s ease-in-out;
+   transition:border-color 0.3s ease-in-out;
+   border:1px solid #AAA;
+} */
+
+#contact textarea {
+   height:100px;
+   width: 60%;
+   max-width: 400px;
+   resize:none;
+   outline: none;
+}
+
+#contact button[type="submit"] {
+   cursor: pointer;
+   width: 150px;
+   border: none;
+   background: #c1232c;
+   color: #fff;
+   padding: 15px 20px;
+   outline: 0;
+   text-align: center;
+   margin: 20px auto; 
+   font-size: 18px;
+}
+
+#contact button[type="submit"]:hover {
+   background-color: #a01b22;
+   /*-webkit-transition:background 0.3s ease-in-out;
+   -moz-transition:background 0.3s ease-in-out;
+   transition:background-color 0.3s ease-in-out; */
+}
+
+#contact button[type="submit"]:active{ 
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+::-webkit-input-placeholder {
+color:#888;
+}
+:-moz-placeholder {
+color:#888;
+}
+::-moz-placeholder {
+color:#888;
+}
+:-ms-input-placeholder {
+color:#888;
+}
