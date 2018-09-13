@@ -1,6 +1,11 @@
-# Mycirclelocalapp
+# My Circle Local App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+This is a simple front-end application built with Angular 6, generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+
+## Credentials
+> username: admin@admin.admin
+
+> password: ghamry98
 
 ## Development server
 
